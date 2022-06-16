@@ -3,7 +3,6 @@
 Step 1. Prepare ADE20K dataset
 
 The dataset can be downloaded at 
-
 `http://groups.csail.mit.edu/vision/datasets/ADE20K/toolkit/index_ade20k.pkl`
 
 or following instruction of `https://github.com/CSAILVision/ADE20K`
