@@ -32,6 +32,7 @@ python /path/to/davis2017-evaluation/evaluation_method.py --task semi-supervised
 ```
 
 ## Acknowledgement
-Our code base is built partly upon the package, DINO (https://github.com/facebookresearch/dino), mmdetection (https://github.com/open-mmlab/mmdetection), mmsegmentation (https://github.com/open-mmlab/mmsegmentation) and XCiT (https://github.com/facebookresearch/xcit)
+Our code base is built partly upon the packages: 
+<a href="https://github.com/facebookresearch/dino">DINO</a>, <a href=https://github.com/open-mmlab/mmdetection>mmdetection</a>, <a href=https://github.com/open-mmlab/mmsegmentation>mmsegmentation</a> and <a href=https://github.com/facebookresearch/xcit>XCiT</a>
 
 ## Citation
