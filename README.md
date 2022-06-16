@@ -12,13 +12,15 @@ Requirements: `torch==1.7.0` `torchvision==0.8.1`
 ## Evaluating video object segmentation on the DAVIS 2017 dataset
 Step 1. Prepare DAVIS 2017 data
 
-`cd $HOME
+```
+cd $HOME
 
 git clone https://github.com/davisvideochallenge/davis-2017
 
 cd davis-2017
 
-./data/get_davis.sh`
+./data/get_davis.sh
+```
 
 Step 2. Run Video object segmentation
 python eval_video_segmentation.py --data_path /path/to/davis-2017/DAVIS/ --output_dir /path/to/saving_dir --pretrained_weights /path/to/model_dir --arch vit_small --patch_size 16 --n 1
