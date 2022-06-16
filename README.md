@@ -21,7 +21,7 @@ cd davis-2017
 
 Step 2. Run Video object segmentation
 
-`python eval_video_segmentation.py --data_path /path/to/davis-2017/DAVIS/ --output_dir /path/to/saving_dir --pretrained_weights /path/to/model_dir --arch vit_small --patch_size 16 --n 1`
+`python eval_video_segmentation.py --data_path /path/to/davis-2017/DAVIS/ --output_dir /path/to/saving_dir --pretrained_weights /path/to/model_dir --arch vit_small --patch_size 16`
 
 Step 3. Evaluate the obtained segmentation
 
