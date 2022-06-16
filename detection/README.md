@@ -1,7 +1,7 @@
 ## Evaluating object detection and instance segmentation on the COCO dataset
 Step 1. Prepare COCO dataset
 
-`The dataset can be downloaded at https://cocodataset.org/#download`
+The dataset can be downloaded at `https://cocodataset.org/#download`
 
 Step 2. Install mmdetection
 
