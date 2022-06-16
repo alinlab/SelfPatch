@@ -5,7 +5,7 @@ PyTorch implementation for SelfPatch (accepted in CVPR, 2022)
 ## Requirements
 Requirements: `torch==1.7.0` `torchvision==0.8.1`
 
-## Pretraining step for 200 traning epochs with a batch size of 1024
+## Pretraining 
 `python -m torch.distributed.launch --nproc_per_node=8 main_selfpatch.py --arch vit_small --data_path /path/to/imagenet/train --output_dir /path/to/saving_dir --epoch 200 --local_crops_number 8 --patch_size 16 --batch_size_per_gpu 128 --out_dim_selfpatch 4096 --k_num 4`
 
 
