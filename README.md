@@ -14,11 +14,8 @@ Step 1. Prepare DAVIS 2017 data
 
 ```
 cd $HOME
-
 git clone https://github.com/davisvideochallenge/davis-2017
-
 cd davis-2017
-
 ./data/get_davis.sh
 ```
 
