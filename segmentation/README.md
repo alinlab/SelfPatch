@@ -15,9 +15,9 @@ Step 3. Convert your model
 
 `python tools/model_converters/vit2mmseg.py /path/to/model_dir /path/to/saving_dir`
 
-Step 4. Fine-tune on the ADE20K dataset using /segmentation/configs/semfpn_vit-s16_512x512_40k_ade20k.py
+Step 4. Fine-tune on the ADE20K dataset
 
 `tools/dist_train.sh configs/selfpatch/semfpn_vit-s16_512x512_40k_ade20k.py [number of gpu] --work-dir /path/to/saving_dir --seed 0 --deterministic --options model.pretrained=/path/to/model_dir`
 
 ## Acknowledgement
-This code is built using the : <a href=https://github.com/open-mmlab/mmsegmentation>mmsegmentation</a> libray. The optimization hyperarameters are adopted from <a href=https://github.com/facebookresearch/xcit>XCiT</a>.
+This code is built using the <a href=https://github.com/open-mmlab/mmsegmentation>mmsegmentation</a> libray. The optimization hyperarameters are adopted from <a href=https://github.com/facebookresearch/xcit>XCiT</a>.
