@@ -20,11 +20,13 @@ cd davis-2017
 ```
 
 Step 2. Run Video object segmentation
-python eval_video_segmentation.py --data_path /path/to/davis-2017/DAVIS/ --output_dir /path/to/saving_dir --pretrained_weights /path/to/model_dir --arch vit_small --patch_size 16 --n 1
+
+`python eval_video_segmentation.py --data_path /path/to/davis-2017/DAVIS/ --output_dir /path/to/saving_dir --pretrained_weights /path/to/model_dir --arch vit_small --patch_size 16 --n 1`
 
 Step 3. Evaluate the obtained segmentation
-git clone https://github.com/davisvideochallenge/davis2017-evaluation $HOME/davis2017-evaluation
-python /path/to/davis2017-evaluation/evaluation_method.py --task semi-supervised --davis_path /path/to/davis-2017/DAVIS --results_path /path/to/saving_dir
+
+`git clone https://github.com/davisvideochallenge/davis2017-evaluation $HOME/davis2017-evaluation
+python /path/to/davis2017-evaluation/evaluation_method.py --task semi-supervised --davis_path /path/to/davis-2017/DAVIS --results_path /path/to/saving_dir`
 
 ## Acknowledgement
 Our code base is built partly upon the package, DINO (https://github.com/facebookresearch/dino), mmdetection (https://github.com/open-mmlab/mmdetection), mmsegmentation (https://github.com/open-mmlab/mmsegmentation) and XCiT (https://github.com/facebookresearch/xcit)
