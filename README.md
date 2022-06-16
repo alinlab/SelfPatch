@@ -13,7 +13,11 @@ Requirements: `torch==1.7.0` `torchvision==0.8.1`
 Step 1. Prepare DAVIS 2017 data
 
 `cd $HOME
-git clone https://github.com/davisvideochallenge/davis-2017 && cd davis-2017
+
+git clone https://github.com/davisvideochallenge/davis-2017
+
+cd davis-2017
+
 ./data/get_davis.sh`
 
 Step 2. Run Video object segmentation
