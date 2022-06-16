@@ -1,7 +1,8 @@
-# Patch-level Representation Learning for Self-supervised Vision Transformers
+# Patch-level Representation Learning for Self-supervised Vision Transformers (SelfPatch)
 
-Our code base is built upon the prior work, DINO (https://github.com/facebookresearch/dino).
+PyTorch implementation for SelfPatch (accepted in CVPR, 2022)
 
+## Requirements
 Requirements: torch==1.7.0 torchvision==0.8.1
 
 ## Pretraining step for 200 traning epochs with a batch size of 1024
@@ -45,3 +46,8 @@ python eval_video_segmentation.py --data_path /path/to/davis-2017/DAVIS/ --outpu
 Step 3. Evaluate the obtained segmentation
 git clone https://github.com/davisvideochallenge/davis2017-evaluation $HOME/davis2017-evaluation
 python /path/to/davis2017-evaluation/evaluation_method.py --task semi-supervised --davis_path /path/to/davis-2017/DAVIS --results_path /path/to/saving_dir
+
+## Acknowledgement
+Our code base is built partly upon the package, DINO (https://github.com/facebookresearch/dino), mmdetection (https://github.com/open-mmlab/mmdetection), mmsegmentation (https://github.com/open-mmlab/mmsegmentation) and XCiT (https://github.com/facebookresearch/xcit)
+
+## Citation
