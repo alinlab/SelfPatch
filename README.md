@@ -40,3 +40,13 @@ Our code base is built partly upon the packages:
 <a href="https://github.com/facebookresearch/dino">DINO</a>, <a href=https://github.com/open-mmlab/mmdetection>mmdetection</a>, <a href=https://github.com/open-mmlab/mmsegmentation>mmsegmentation</a> and <a href=https://github.com/facebookresearch/xcit>XCiT</a>
 
 ## Citation
+If you use this code for your research, please cite our papers.
+```
+@inproceedings{yun2022patch,
+  title={Patch-Level Representation Learning for Self-Supervised Vision Transformers},
+  author={Yun, Sukmin and Lee, Hankook and Kim, Jaehyung and Shin, Jinwoo},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={8354--8363},
+  year={2022}
+}
+```
