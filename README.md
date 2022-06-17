@@ -42,11 +42,12 @@ Our code base is built partly upon the packages:
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@inproceedings{yun2022patch,
-  title={Patch-Level Representation Learning for Self-Supervised Vision Transformers},
-  author={Yun, Sukmin and Lee, Hankook and Kim, Jaehyung and Shin, Jinwoo},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={8354--8363},
-  year={2022}
+@InProceedings{Yun_2022_CVPR,
+    author    = {Yun, Sukmin and Lee, Hankook and Kim, Jaehyung and Shin, Jinwoo},
+    title     = {Patch-Level Representation Learning for Self-Supervised Vision Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {8354-8363}
 }
 ```
