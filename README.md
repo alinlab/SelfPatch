@@ -43,8 +43,8 @@ python /path/to/davis2017-evaluation/evaluation_method.py --task semi-supervised
 ### Video object segmentation examples on the DAVIS 2017 dataset
 
 Video (left), DINO (middle) and our SelfPatch (right)
-<p align="center">
-<img width="30%" alt="img"  src="https://user-images.githubusercontent.com/4075389/175108678-5264d34c-720b-4f85-a16c-d933a14562c7.gif" />
+<p align="center">    
+<img width="30%" alt="img"  src="https://user-images.githubusercontent.com/4075389/175109670-d81d574f-fc7d-4512-a2a9-3cdd9be6efb0.gif" />
 <img width="30%" alt="dino" src="https://user-images.githubusercontent.com/4075389/175108188-23fb0513-94ee-4084-b41e-8c3659edaa39.gif" />
 <img width="30%" alt="ours" src="https://user-images.githubusercontent.com/4075389/175108388-6031e29f-2859-48b2-8e36-1ccd2608f0f7.gif" />
 </p>
