@@ -40,6 +40,16 @@ $HOME/davis2017-evaluation
 python /path/to/davis2017-evaluation/evaluation_method.py --task semi-supervised --davis_path /path/to/davis-2017/DAVIS --results_path /path/to/saving_dir
 ```
 
+### Video object segmentation examples on the DAVIS 2017 dataset
+
+Video (left), DINO (middle) and SelfPatch (right)
+<p align="center">
+<img width="30%" alt="img" src="https://user-images.githubusercontent.com/4075389/175108678-5264d34c-720b-4f85-a16c-d933a14562c7.gif">
+<img width="30%" alt="dino" src="https://user-images.githubusercontent.com/4075389/175108188-23fb0513-94ee-4084-b41e-8c3659edaa39.gif">
+<img width="30%" alt="ours" src="https://user-images.githubusercontent.com/4075389/175108388-6031e29f-2859-48b2-8e36-1ccd2608f0f7.gif">
+</p>
+
+
 ## Acknowledgement
 Our code base is built partly upon the packages: 
 <a href="https://github.com/facebookresearch/dino">DINO</a>, <a href=https://github.com/open-mmlab/mmdetection>mmdetection</a>, <a href=https://github.com/open-mmlab/mmsegmentation>mmsegmentation</a> and <a href=https://github.com/facebookresearch/xcit>XCiT</a>
