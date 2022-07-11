@@ -1,6 +1,6 @@
 # Patch-level Representation Learning for Self-supervised Vision Transformers (SelfPatch)
 
-PyTorch implementation for <a href=https://arxiv.org/abs/2206.07990>"Patch-level Representation Learning for Self-supervised Vision Transformers"</a> (accepted in CVPR 2022)
+PyTorch implementation for <a href=https://arxiv.org/abs/2206.07990>"Patch-level Representation Learning for Self-supervised Vision Transformers"</a> (accepted Oral in CVPR 2022)
 
 <p align="center">
 <img width="782" alt="thumbnail" src="https://user-images.githubusercontent.com/4075389/174249727-e1d4433f-93ad-4675-ac58-2b6740dc7ae4.png">
