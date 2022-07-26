@@ -25,5 +25,14 @@ Step 4. Fine-tune on the ADE20K dataset
 tools/dist_train.sh configs/selfpatch/semfpn_vit-s16_512x512_40k_ade20k.py [number of gpu] --work-dir /path/to/saving_dir --seed 0 --deterministic --options model.pretrained=/path/to/model_dir
 ```
 
+## Pretrained weights on ADE20K
+You can download the weights of the fine-tuned models on semantic segmentation task. We provide fine-tuned models with `Semantic FPN` (40k iterations) and `UperNet` (160k iterations). 
+
+- `DINO` + `Semantic FPN`: 38.3 mIoU (<a href="https://drive.google.com/file/d/1SdbNT5d5d5JQ8IYodpMvuF6JKtp_ovm6/view?usp=sharing">checkpoint</a>)
+- `DINO` + `UperNet`: 42.3 mIoU (<a href="https://drive.google.com/file/d/1il-K4ual9VRW-yDC92eNyZrtjc6KmZK6/view?usp=sharing">checkpoint</a>)
+- `DINO + SelfPatch` + `Semantic FPN`: 41.2 mIoU (<a href="https://drive.google.com/file/d/1vl2dhglveKK_1rmMi8XQEr8z3_zlecfO/view?usp=sharing">checkpoint</a>)
+- `DINO + SelfPatch` + `UperNet`: 43.2 mIoU (<a href="https://drive.google.com/file/d/1JoXtIsJh2RxEOrqqiNSsQ_oc8uicgOIS/view?usp=sharing">checkpoint</a>)
+
+
 ## Acknowledgement
 This code is built using the <a href=https://github.com/open-mmlab/mmsegmentation>mmsegmentation</a> libray. The optimization hyperarameters are adopted from <a href=https://github.com/facebookresearch/xcit>XCiT</a>.
