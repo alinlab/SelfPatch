@@ -15,5 +15,12 @@ Step 3. Fine-tune on the COCO dataset
 tools/dist_train.sh configs/selfpatch/mask_rcnn_vit_small_12_p16_1x_coco.py [number of gpu] --work-dir /path/to/saving_dir --seed 0 --deterministic --options model.pretrained=/path/to/model_dir
 ```
 
+## Pretrained weights on MS-COCO
+You can download the weights of the fine-tuned models on object detection and instance segmentation tasks. All models are fine-tuned with `Mask R-CNN`. 
+
+- `DINO` + `Mask R-CNN` (<a href="https://drive.google.com/file/d/1yFTycxtmWEQEQyLT6l_SYV0YQ-5Z1BvN/view?usp=sharing">checkpoint</a>)
+- `DINO + SelfPatch` + `Mask R-CNN` (<a href="https://drive.google.com/file/d/1q45LplADkDdiCqzhWOkgyUXivHJrI7eT/view?usp=sharing">checkpoint</a>)
+
+
 ## Acknowledgement
 This code is built using the <a href=https://github.com/open-mmlab/mmdetection>mmdetection</a> libray.
