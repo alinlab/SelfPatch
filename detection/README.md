@@ -18,8 +18,8 @@ tools/dist_train.sh configs/selfpatch/mask_rcnn_vit_small_12_p16_1x_coco.py [num
 ## Pretrained weights on MS-COCO
 You can download the weights of the fine-tuned models on object detection and instance segmentation tasks. All models are fine-tuned with `Mask R-CNN`. 
 
-- `DINO` + `Mask R-CNN` (<a href="https://drive.google.com/file/d/1yFTycxtmWEQEQyLT6l_SYV0YQ-5Z1BvN/view?usp=sharing">checkpoint</a>)
-- `DINO + SelfPatch` + `Mask R-CNN` (<a href="https://drive.google.com/file/d/1q45LplADkDdiCqzhWOkgyUXivHJrI7eT/view?usp=sharing">checkpoint</a>)
+- `DINO` + `Mask R-CNN`: 40.8 APbb / 37.3 APmk (<a href="https://drive.google.com/file/d/1yFTycxtmWEQEQyLT6l_SYV0YQ-5Z1BvN/view?usp=sharing">checkpoint</a>)
+- `DINO + SelfPatch` + `Mask R-CNN`: 42.1 APbb / 38.5 APmk (<a href="https://drive.google.com/file/d/1q45LplADkDdiCqzhWOkgyUXivHJrI7eT/view?usp=sharing">checkpoint</a>)
 
 
 ## Acknowledgement
