@@ -15,6 +15,11 @@ PyTorch implementation for <a href=https://arxiv.org/abs/2206.07990>"Patch-level
 python -m torch.distributed.launch --nproc_per_node=8 main_selfpatch.py --arch vit_small --data_path /path/to/imagenet/train --output_dir /path/to/saving_dir --epoch 200 --local_crops_number 8 --patch_size 16 --batch_size_per_gpu 128 --out_dim_selfpatch 4096 --k_num 4
 ```
 
+## Pretrained weights on ImageNet
+You can download the weights of the pretrained models on ImageNet. All models are trained on `ViT-S/16`. For detection and segmentation downstream tasks, please check <a href="https://github.com/alinlab/SelfPatch/tree/main/detection">SelfPatch/detection</a>, <a href="https://github.com/alinlab/SelfPatch/tree/main/segmentation">SelfPatch/segmentation</a>. 
+
+- `DINO` from <a href="https://github.com/facebookresearch/vissl">VISSL</a> (<a href="https://drive.google.com/file/d/1LDw2UBPq6Xf8xMUk0G3IOhi2ZBFT-Zsq/view?usp=sharing">checkpoint</a>)
+- `DINO + SelfPatch` (<a href="https://drive.google.com/file/d/19eeQrK-nl4B9ksFQ_QnewGHVKYDQF4Yw/view?usp=sharing">checkpoint</a>)
 
 ## Evaluating video object segmentation on the DAVIS 2017 dataset
 Step 1. Prepare DAVIS 2017 data
