@@ -18,7 +18,7 @@ python -m torch.distributed.launch --nproc_per_node=8 main_selfpatch.py --arch v
 ## Pretrained weights on ImageNet
 You can download the weights of the pretrained models on ImageNet. All models are trained on `ViT-S/16`. For detection and segmentation downstream tasks, please check <a href="https://github.com/alinlab/SelfPatch/tree/main/detection">SelfPatch/detection</a>, <a href="https://github.com/alinlab/SelfPatch/tree/main/segmentation">SelfPatch/segmentation</a>. 
 
-| method  | arch | checkpoint |
+| backbone  | arch | checkpoint |
 | ------------- | ------------- | ------------- |
 | DINO | ViT-S/16  | <a href="https://drive.google.com/file/d/1LDw2UBPq6Xf8xMUk0G3IOhi2ZBFT-Zsq/view?usp=sharing">download</a> (pretrained model from <a href="https://github.com/facebookresearch/vissl">VISSL</a>) |
 | DINO + SelfPatch | ViT-S/16 | <a href="https://drive.google.com/file/d/19eeQrK-nl4B9ksFQ_QnewGHVKYDQF4Yw/view?usp=sharing">download</a> |
