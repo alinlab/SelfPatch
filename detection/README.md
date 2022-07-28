@@ -18,9 +18,10 @@ tools/dist_train.sh configs/selfpatch/mask_rcnn_vit_small_12_p16_1x_coco.py [num
 ## Pretrained weights on MS-COCO
 You can download the weights of the fine-tuned models on object detection and instance segmentation tasks. All models are fine-tuned with `Mask R-CNN`. 
 
-- `DINO` + `Mask R-CNN`: 40.8 APbb / 37.3 APmk (<a href="https://drive.google.com/file/d/1yFTycxtmWEQEQyLT6l_SYV0YQ-5Z1BvN/view?usp=sharing">checkpoint</a>)
-- `DINO + SelfPatch` + `Mask R-CNN`: 42.1 APbb / 38.5 APmk (<a href="https://drive.google.com/file/d/1q45LplADkDdiCqzhWOkgyUXivHJrI7eT/view?usp=sharing">checkpoint</a>)
-
+| backbone | arch | bbox mAP | mask mAP | checkpoint |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| DINO | ViT-S/16 + Mask R-CNN | 40.8 | 37.3 | <a href="https://drive.google.com/file/d/1yFTycxtmWEQEQyLT6l_SYV0YQ-5Z1BvN/view?usp=sharing">download</a> |
+| DINO + SelfPatch | ViT-S/16 + Mask R-CNN | 42.1 | 38.5 | <a href="https://drive.google.com/file/d/1q45LplADkDdiCqzhWOkgyUXivHJrI7eT/view?usp=sharing">download</a> |
 
 ## Acknowledgement
 This code is built using the <a href=https://github.com/open-mmlab/mmdetection>mmdetection</a> libray.
