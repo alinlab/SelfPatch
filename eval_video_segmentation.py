@@ -31,7 +31,7 @@ from PIL import Image
 from torchvision import transforms
 
 import utils
-import SelfPatch_vision_transformer as vits
+import selfpatch_vision_transformer as vits
 
 
 @torch.no_grad()
